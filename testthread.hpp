@@ -89,7 +89,9 @@ class testthread : public javalike_thread {
 
                 for(int i=0; i<iterations; i++){
                     for(int j=0; j<amount; j++){
-                        curl_easy_setopt(curl, CURLOPT_URL, fetches.get_random_url());          //set url to fetch
+                    	string tmp;
+                        curl_easy_setopt(curl, CURLOPT_URL, (tmp=string("http://")+fetches.get_random_url()).c_str());          //set url to fetch
+                        cout<<"URL: "<<tmp<<"\n";
 
                         res = curl_easy_perform(curl);
 

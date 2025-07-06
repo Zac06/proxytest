@@ -2,7 +2,8 @@
 
 Utility to test a proxy by spamming requests.
 
-> [!WARNING] This tool is meant to "stress test" a proxy server if configured for heavy load or executed on multiple machines. It can also be used as a "functionality test" if configured for light load.
+> [!WARNING] 
+> This tool is meant to "stress test" a proxy server if configured for heavy load or executed on multiple machines. It can also be used as a "functionality test" if configured for light load.
 
 ---
 

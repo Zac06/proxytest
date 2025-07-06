@@ -1,2 +1,3 @@
 .vscode
-fetch_threads
+proxytest
+*.exe
